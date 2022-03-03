@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{D933DFE5-39E4-40F6-A91C-BC9383D56043}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{66F2FD6C-DE1D-485C-9517-F990A1DF8F3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{8837B422-BD6F-473B-A875-1263A45740AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "singleton\Singleton.csproj", "{0DCE839A-9E53-48BB-A440-EF1FCBBA7A49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{EA6ACB11-03F6-402F-AE33-E31585190A1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DCE839A-9E53-48BB-A440-EF1FCBBA7A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DCE839A-9E53-48BB-A440-EF1FCBBA7A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DCE839A-9E53-48BB-A440-EF1FCBBA7A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DCE839A-9E53-48BB-A440-EF1FCBBA7A49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA6ACB11-03F6-402F-AE33-E31585190A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA6ACB11-03F6-402F-AE33-E31585190A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA6ACB11-03F6-402F-AE33-E31585190A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA6ACB11-03F6-402F-AE33-E31585190A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DCE839A-9E53-48BB-A440-EF1FCBBA7A49} = {66F2FD6C-DE1D-485C-9517-F990A1DF8F3C}
+		{EA6ACB11-03F6-402F-AE33-E31585190A1E} = {66F2FD6C-DE1D-485C-9517-F990A1DF8F3C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B02012EC-B238-44EE-80CF-55346C493FBA}
+	EndGlobalSection
+EndGlobal
